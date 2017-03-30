@@ -1,0 +1,93 @@
+#header {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 400%;
+}
+
+.page-header {
+
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+#form-gif-request {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+#request {
+  padding: 2%;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  width: 65%;
+  margin: auto;
+  font-size: 120%;
+  text-align: left;
+  box-shadow: 0 0 1px 1px #9E9E9E;
+}
+
+input[name="tag"] {
+  width: 100%;
+  border-radius: 4px;
+}
+
+#validate {
+  padding: 2%;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  width: 65%;
+  margin: auto;
+  font-size: 120%;
+  text-align: left;
+  box-shadow: 0 0 1px 1px #9E9E9E;
+}
+
+input[name="riddle"] {
+  width: 56%;
+  border-radius: 4px;
+}
+
+.btn-default{
+  float: left;
+}
+
+#submit {
+  width: 65%;
+  margin: auto;
+  background-color: grey;
+}
+
+
+#robot-error {
+  width: 65%;
+  margin: auto;
+  text-align: left;
+  color: red;
+  font-size: 120%;
+}
+
+#gif-container {
+  margin: auto;
+}
+
+#gif {
+  margin: auto;
+  display: block;
+}
+
+.input_group {
+  position: inherit;
+}
+
+.child2
+{
+  width: 65%;
+  margin: auto;
+    -moz-box-flex:5.0; /* Firefox */
+    -webkit-box-flex:5.0; /* Safari and Chrome */
+    -ms-flex:9.0; /* Internet Explorer 10 */
+    box-flex:9.0;
+}
