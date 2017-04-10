@@ -30,8 +30,12 @@
           <br>
           <div id="validate">
             <label>Prove you are not a robot by answering this riddle:</label>
-            <div class="input-group">
+            <!--<div class="input-group">
               <input name="riddle" class="form-control" type="text"/><span class="input-group-addon" id="bold">Jacksons are better than 1</label>
+            </div>-->
+            <div id="captcha">
+              <input name="riddle" type="text">
+              <label id="better">Jacksons are better than 1</label>
             </div>
           </div>
           <br>
@@ -47,8 +51,8 @@
     </form>
     <div class='child2'> <hr class="between" /></div>
     <div id="gif-container">
+      <p id="feedback" hidden="true"></p>
       <img id="gif" src="" hidden="true"/>
-      <p id="feedback" hidden="true`"></p>
     </div>
 </body>
 </html>

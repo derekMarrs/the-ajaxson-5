@@ -13,6 +13,20 @@
   margin: auto;
 }
 
+@media only screen and (max-device-width: 480px) {
+  #better {
+    position: relative !important;
+    float: none !important;
+  }
+}
+
+#better {
+    /* Other styling.. */
+    float: right;
+    position: absolute;
+    font-size: 80%;
+}
+
 #form-gif-request {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
@@ -80,6 +94,10 @@ input[name="riddle"] {
 
 .input_group {
   position: inherit;
+}
+
+#feedback {
+  text-align: center;
 }
 
 .child2
